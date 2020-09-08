@@ -5,6 +5,10 @@ In order to compile the project, JDK of version 8+ installation is required.
 Also, environmental variables JAVA_HOME and PATH must be updated with corresponding installation folder
 
 To compile the project, clone this repository and navigate to src folder of the project. Then execute javac com/company/Poker.java to compile the project
+
+In case of issues with compiling, compiled project is located under 
+Poker/Poker/out/production/Poker/com/company/ directory
+
 Program execution can be triggered using such command: java com/company/Poker.java
 
 Omaha command line switch is implemented, executing java com/company/Poker.java --omaha  - will switch to omaha holdem rules
