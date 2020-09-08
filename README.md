@@ -1,5 +1,5 @@
 # Poker
-Scala Bootcamp task
+Scala Bootcamp task by Genrihs Saruhanovs
 
 In order to compile the project, JDK of version 8+ installation is required.
 Also, environmental variables JAVA_HOME and PATH must be updated with corresponding installation folder
