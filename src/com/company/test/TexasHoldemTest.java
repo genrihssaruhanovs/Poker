@@ -31,7 +31,7 @@ public class TexasHoldemTest {
         testsInputOutput.put("AsKs2cAd3h AcQs AhJh", "AhJh AcQs");
         testsInputOutput.put("4c4h4s6c6h 3dJc 2c5c 7h6s TsQc", "2c5c=3dJc=TsQc 7h6s");
         testsInputOutput.put("AcAhQsQcKh Kd7c KcTc JhJs TsQh", "JhJs KcTc=Kd7c TsQh");
-
+        testsInputOutput.put("3s7sAhQhTd 8h4s 9c4h Kd9s 3hTs 9h6c TcKh 6sKs 8cAs 2c6h", "2c6h 8h4s 9c4h=9h6c 6sKs Kd9s TcKh 8cAs 3hTs");
 
         for(Map.Entry<String, String> inputOutput : testsInputOutput.entrySet()){
             assertEquals(inputOutput.getValue(), evaluateString(inputOutput.getKey()));

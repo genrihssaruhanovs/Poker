@@ -15,6 +15,6 @@ public class HighCardCreator extends CombinationCreator {
     @Override
     Combination createCombination() {
         ArrayList<Rank> singleCards = getHandCombinations().getSingleCards();
-        return singleCards.size() > 5 ? new HighCard(singleCards.subList(0, 6)) : new HighCard(singleCards);
+        return singleCards.size() > 5 ? new HighCard(singleCards.subList(0, 5)) : new HighCard(singleCards);
     }
 }
