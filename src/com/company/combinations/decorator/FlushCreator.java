@@ -15,6 +15,6 @@ public class FlushCreator extends CombinationCreator {
     @Override
     Combination createCombination() {
         ArrayList<CardSet> flushes = getHandCombinations().getFlushes();
-        return flushes.size() != 0 ? new Flush(flushes.get(0).getCards().get(0).getRank()) : null;
+        return flushes.size() != 0 ? new Flush(flushes.get(0)) : null;
     }
 }
